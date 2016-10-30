@@ -1,2 +1,3 @@
 #name password
 Godning 123456
+lzn 123
