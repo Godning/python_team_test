@@ -15,7 +15,7 @@ def register():
     f = open('member.txt', 'r')
     lines = f.readlines()
     lines.append('\n')
-    lines.append(username+' '+password)
+    lines.append(username+' '+password+' '+0)
     f.close()
     f = open('member.txt', 'w')
     f.writelines(lines)
